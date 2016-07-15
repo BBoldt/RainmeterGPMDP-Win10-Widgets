@@ -1,15 +1,13 @@
 # Rainmeter GPMDP/Win 10 Widgets Compat
 
-![](http://i.imgur.com/QbSdxZm.png)      ![](http://i.imgur.com/9x7pUkc.png)
+![](http://i.imgur.com/jQDiMDb.png)      ![](http://i.imgur.com/9x7pUkc.png)
 ![](http://i.imgur.com/gVB94sS.png)
 
-Heavily edited Win 10 Widgets config that incorporates maarten1055's GPMDP compatibility. 
-
-Based on the Win 10 Widgets Spotify plugins. 
+Heavily edited Win 10 Widgets config that incorporates maarten1055's GPMDP compatibility. RainmeterGPMDP basically parses GPMDP's now playing .json file. All I did was mash a bunch of his code with the code from Win 10 Widgets. Lots of copy/paste and experimentation has resulted in mostly working widgets for Rainmeter in the win10widgets style.
 
 Only works as a display, all audio controls are removed. Also I couldn't figure out how to make it detect if GPMDP was running or not, so none of that stuff works.
 
-I do not know how to computer
+I do not know much about code, so there are probably a few mistakes here and there, but everything seems to work okay so far. 
 
 # To install
 * Download Win 10 Widgets
