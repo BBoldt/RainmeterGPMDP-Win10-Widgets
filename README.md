@@ -39,4 +39,4 @@ https://github.com/maarten1055/TestRainmeterGPMDP
 
 [maarten1055](https://www.reddit.com/user/maarten1055) - rainmetergpmdp test person whose code I also horribly mangled
 
-[Leel17(https://www.reddit.com/r/Rainmeter/comments/43q0t2/ocgoogle_play_music_desktop_player_song_info/d01eqda) - some person on reddit who posted how to increase album art resolution
+[Leel17](https://www.reddit.com/r/Rainmeter/comments/43q0t2/ocgoogle_play_music_desktop_player_song_info/d01eqda) - some person on reddit who posted how to increase album art resolution
