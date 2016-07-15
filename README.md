@@ -1,9 +1,6 @@
 # Rainmeter GPMDP/Win 10 Widgets Compat
 
-![](http://i.imgur.com/QbSdxZm.png)
-
-![](http://i.imgur.com/9x7pUkc.png)
-
+![](http://i.imgur.com/QbSdxZm.png)      ![](http://i.imgur.com/9x7pUkc.png)
 ![](http://i.imgur.com/gVB94sS.png)
 
 Heavily edited Win 10 Widgets config that incorporates maarten1055's GPMDP compatibility. 
