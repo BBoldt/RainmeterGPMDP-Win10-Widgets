@@ -41,5 +41,7 @@ https://github.com/maarten1055/TestRainmeterGPMDP
 # Special Thanks
 
 [TJ Markham](https://www.reddit.com/user/rainmeterTJ) - win 10 widgets person whose code I horribly mangled
+
 [maarten1055](https://www.reddit.com/user/maarten1055) - rainmetergpmdp test person whose code I also horribly mangled
+
 [Leel17(https://www.reddit.com/r/Rainmeter/comments/43q0t2/ocgoogle_play_music_desktop_player_song_info/d01eqda) - some person on reddit who posted how to increase album art resolution
