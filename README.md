@@ -1,42 +1,45 @@
-# TestRainmeterGPMDP
+# Rainmeter GPMDP/Win 10 Widgets Compat
 
-Just a quick test to use the JSON file from Google Play Music Desktop Player from MarshallOfSound:
+![](http://i.imgur.com/QbSdxZm.png)
 
+![](http://i.imgur.com/9x7pUkc.png)
+
+![](http://i.imgur.com/gVB94sS.png)
+
+Heavily edited Win 10 Widgets config that incorporates maarten1055's GPMDP compatibility. 
+
+Based on the Win 10 Widgets Spotify plugins. 
+
+Only works as a display, all audio controls are removed. Also I couldn't figure out how to make it detect if GPMDP was running or not, so none of that stuff works.
+
+I do not know how to computer
+
+# To install
+* Download Win 10 Widgets
+* Place all files in a folder within your Win 10 Widgets directory
+```
+D:\brand\Documents\Rainmeter\Skins\Win10 Widgets\Google Play Music
+```
+* Edit path in your GPM-Small.ini to point to your GPMDP playback.json, you should only need to change the username.
+```
+FileToRead="C:\Users\YOURUSERNAMEHERE\AppData\Roaming\Google Play Music Desktop Player\json_store\playback.json"
+```
+* Reload rainmeter and load up the skin!
+![](http://i.imgur.com/oCmLrP7.png)
+
+# Links
+Google Play Music Desktop Player:
+http://www.googleplaymusicdesktopplayer.com/
 https://github.com/MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-
 
-To use this in your own skins:
+Win 10 Widgets:
+http://win10widgets.com/
 
-- Copy GPMDPJson.lua and JSON.lua to your directory
-- Copy these variables from GPMDPTest.ini and change the values to the name of your skin: 
-```
-MeterTitleName=MeterTitle
-MeterArtistName=MeterArtist
-MeterAlbumName=MeterAlbum
-MeterTotalTime=MeterLength
-MeterCurrentTime=MeterPosition
-```
+maarten1055's GPMDP test:
+https://github.com/maarten1055/TestRainmeterGPMDP
 
-- Copy these measures from GPMDPTest.ini:
-```
-[MeasureLuaScript]
-Measure=Script
-ScriptFile="#CURRENTPATH#GPMDPJson.lua"
-; Change this path to your playback-information, this should be the same location except with a different user ofcourse. So "Maart" should be your username and for most people it's probably drive C
-FileToRead="D:\Users\maart\AppData\Roaming\Google Play Music Desktop Player\json_store\playback.json"
-JSONParser="#CURRENTPATH#JSON.lua"
+# Special Thanks
 
-[MeasureImageDownload]
-Measure=Plugin
-Plugin=WebParser
-url=#CoverUrl#
-Download=1
-DynamicVariables=1
-DownloadFile=image1.jpg
-
-[MeasureCalcProgress]
-Measure=Calc
-Formula= #Length#
-DynamicVariables=1
-```
-- Use MeasureImageDownload as the measure for your album cover
-- Use MeasureCalcProgress as the measure for the time bar or roundline
+[TJ Markham](https://www.reddit.com/user/rainmeterTJ) - win 10 widgets person whose code I horribly mangled
+[maarten1055](https://www.reddit.com/user/maarten1055) - rainmetergpmdp test person whose code I also horribly mangled
+[Leel17(https://www.reddit.com/r/Rainmeter/comments/43q0t2/ocgoogle_play_music_desktop_player_song_info/d01eqda) - some person on reddit who posted how to increase album art resolution
